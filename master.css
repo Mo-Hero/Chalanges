@@ -8,7 +8,7 @@ h1 {
     border-width: 0.1px;
 }
 
-                                                                    /* Start chalange 1 */
+/* Start chalange 1 */
 
 .parent div {
     width: 80px;
@@ -19,12 +19,13 @@ h1 {
     outline: black solid 2.5px;
     padding-top: 5px;
 }
+
 .one {
     border: 2.5px solid red;
 }
 
 .two {
-    border: 2.5px solid ;
+    border: 2.5px solid;
     border-color: blue green;
 }
 
@@ -32,9 +33,10 @@ h1 {
     border: 2.5px dashed red;
     border-color: red green blue yellow;
 }
-                                                                          /* End chalange 1 */
 
-                                                                         /* Start chalange 2 */
+/* End chalange 1 */
+
+/* Start chalange 2 */
 
 .chalange-2 div {
     box-sizing: border-box;
@@ -47,7 +49,7 @@ h1 {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    
+
 }
 
 .one1::before {
@@ -73,17 +75,18 @@ h1 {
     top: 20%;
     left: 10px;
 }
-                                                                         /* End chalange 2 */
 
-                                                                         /* Start chalange 3 */
+/* End chalange 2 */
+
+/* Start chalange 3 */
 .chalange3 {
     margin-left: 200px;
     height: 350px;
     width: 800px;
-    background-color: #eeeeee; 
+    background-color: #eeeeee;
     display: grid;
-    grid-template-columns: 0px repeat(4 , 181.25px) 0px;
-    grid-template-rows: 0px repeat(4 , calc(275px / 4)) 0px;
+    grid-template-columns: 0px repeat(4, 181.25px) 0px;
+    grid-template-rows: 0px repeat(4, calc(275px / 4)) 0px;
     gap: 15px;
 }
 
@@ -103,7 +106,7 @@ h1 {
 
 .gthree {
     display: grid;
-    grid-template-columns: repeat(3 , calc(740px / 3));
+    grid-template-columns: repeat(3, calc(740px / 3));
     column-gap: 15px;
     grid-column-start: 2;
     grid-column-end: 6;
@@ -205,13 +208,13 @@ h1 {
     font-family: sans-serif;
 }
 
-                                                                          /* End chalange 3 */
+/* End chalange 3 */
 
-                                                                          /* Start chalange 4 */
+/* Start chalange 4 */
 .onE,
 .twO {
     opacity: 0.1;
-    
+
 }
 
 .master div {
@@ -224,14 +227,14 @@ h1 {
     color: black;
 }
 
-                                                                         /* End chalange 4 */
+/* End chalange 4 */
 
-                                                                         /* Start chalange 5 */
-                                             
+/* Start chalange 5 */
+
 .cont {
     width: 200px;
     height: 150px;
-}                                                                       
+}
 
 .green,
 .red,
@@ -269,8 +272,8 @@ h1 {
     z-index: -1;
 }
 
-                                                                          /* End chalange 5 */
-                                                                          /* Start chalange 6 */
+/* End chalange 5 */
+/* Start chalange 6 */
 .par {
     width: 800px;
     height: 200px;
@@ -338,9 +341,9 @@ h1 {
     border-left: 5px solid #f44336;
 }
 
-                                                                          /* End chalange 6 */
+/* End chalange 6 */
 
-                                                                          /* Start chalange 7 */
+/* Start chalange 7 */
 ul {
     width: 400px;
     font-size: large;
@@ -356,7 +359,7 @@ ul .html,
     margin-bottom: 20px;
     text-transform: capitalize;
     padding: 10px 0 0 10px;
-    
+
 }
 
 ol[start="10"] li {
@@ -400,9 +403,9 @@ ol[start="10"] {
     padding-left: 0;
 }
 
-                                                                          /* End chalange 7 */
-                                                                          
-                                                                          /* Start chalange 8 */
+/* End chalange 7 */
+
+/* Start chalange 8 */
 
 
-                                                                          /* End chalange 8 */
+/* End chalange 8 */
